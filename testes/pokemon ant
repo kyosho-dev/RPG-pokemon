@@ -1,0 +1,16 @@
+if section == self.pk6:
+            if self.pokemon_6.NOME != 'Na':
+                cont = self.pokemon_1
+                cont2  = self.pk_invent.pokemon_1
+
+                self.pokemon_1 = self.pokemon_6
+                self.pokemon_6 = cont
+
+                self.pk_invent.__class__.pokemon_1 =  self.pk_invent.pokemon_6
+                self.pk_invent.__class__.pokemon_6 =  cont2
+
+                section = 'batalha'
+                self.text(('Vá! ' + self.pokemon_1.NOME),'')
+                self.exTurno()
+            else:
+                section = self.Pokemon
