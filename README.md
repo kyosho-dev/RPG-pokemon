@@ -39,3 +39,11 @@ Use the command `git clone github.com/kyosho-dev/RPG-pokemon` then go to `\stagi
 ## Technologies used 
 - [python3](https://www.python.org/downloads/)
 - [pygame](https://www.pygame.org/wiki/about)
+
+## a
+
+https://github.com/kyosho-dev/RPG-pokemon/assets/111905282/3323ad6d-76f4-4ba4-a666-7cb90d52928c
+
+
+
+  
