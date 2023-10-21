@@ -1,0 +1,57 @@
+
+link de dados de pokemons
+https://pokemonbrasil.fandom.com/pt-br/wiki/Bulbasaur_(Pokémon)
+
+https://pokemondb.net/pokedex/charmander
+
+https://pokemondb.net/pokedex/squirtle
+
+
+
+
+ 
+        
+        
+        Chance de acerto = Pricisão base do ataque * Accuracy do atacante/ Evasion do oponente
+        
+        Accuracy sempre no inicio é igual a 100%
+        Evasion  sempre no inicio é igual a 100%
+        
+        Nessa fórmula, a precisão base do ataque é informada em porcentagem (se for 95, é contado como 0.95, 	
+        
+        
+        
+        
+        
+        ((((2* Level/5+2) *ATK STAT *ATK POWER/DEF STAT)/50)+2)*STAB*WEAKNESS RESISTENCE *CRITICAL *OTHER *(MARGIN/100))
+        
+        
+        "Level" é o level de ambos os Pokémon que participam da batalha.
+        "Atkstat/ Sp.Atkstat" é o stat de Atk/ Sp.Atk do Pokémon que está atacando.
+        "Atkpower" é o base power (BP) do golpe que o atacante está usando.
+        "Defstat/ Sp.Defstat" é o stat de Def/ Sp.Def do Pokémon que irá receber o golpe.
+        "STAB" é o bônus de golpe do mesmo tipo (Same-Type Attack Bônus) do Pokémon atacante. Substitua por 1,5 se for um golpe STAB do atacante; se não for, substitua por 1.
+        
+        ● "Weakness;Resistance" é a variável de fraqueza ou resistência do defensor, que 
+        pode ser entre 0, 0,25, 0,5, 1, 2 e 4; Se for, por exemplo, um golpe Electric em um Pokemon 
+        do tipo Grass, esse valor será 0,5 porque Pokémon do tipo Grass tem resistência x1/2
+         a golpes do tipo Electric. 0,25 é o valor para uma resistência x1/4, enquanto que 0 
+         é o valor para imunidade, como um golpe do tipo Ghost num Pokémon do tipo Normal. Os 
+         outros são bem óbvios, sendo 1 para dano neutro, 2 para fraqueza x2 e 4 para uma 
+         fraqueza x4.
+         
+         
+         
+         ● "Critical" é o valor para critical hits; seu valor 
+         será 1,5 para golpes críticos e 1 para golpes normais.
+         
+         ● "Other" é a variável para itens, habilidades, efeito de Burn, etc. O valor que você vai colocar dependerá da situação. Por exemplo,
+          você colocaria x1,3 (30%) caso o atacante estivesse segurando Life Orb.
+          
+          
+          ● Por último, "Margin" é uma variável de margem de erro; se quiser
+           o dano mínimo que este golpe causará, use 80. Para o máximo, use 100.
+           
+           
+           https://www.pokemothim.net/2014/08/calculo-de-dano.html
+
