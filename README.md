@@ -14,7 +14,7 @@ funções presente no jogo:
 
 ## Para usar
 
-Use o comando `git clone github.com/itatiN/habits_tracker` em seguida va para `\stagios\inicio.py` e execute o arquivo, para testar o servidor execulte os aquivos `\Server\Server chat.py` e `\Client\client.py`
+Use o comando `git clone github.com/kyosho-dev/RPG-pokemon` em seguida va para `\stagios\inicio.py` e execute o arquivo, para testar o servidor execulte os aquivos `\Server\Server chat.py` e `\Client\client.py`
 
 ## Tecnologias usadas 
 - [python3](https://www.python.org/downloads/)
@@ -34,7 +34,7 @@ Functions present in the game:
 
 ## To use
 
-Use the command `git clone github.com/itatiN/habits_tracker` then go to `\stagios\inicio.py` and run the file, to test the server run the files `\Server\Server chat.py` and `\ Client\client.py`
+Use the command `git clone github.com/kyosho-dev/RPG-pokemon` then go to `\stagios\inicio.py` and run the file, to test the server run the files `\Server\Server chat.py` and `\ Client\client.py`
 
 ## Technologies used 
 - [python3](https://www.python.org/downloads/)
